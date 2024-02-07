@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#b#",
+    "#f#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:red_dye"
+    },
+    "b": {
+      "item": "minecraft:white_dye"
+    },
+    "f": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "eyecandycraft:allarme",
+    "count": 2
+  }
+}

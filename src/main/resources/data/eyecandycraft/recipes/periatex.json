@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "b##",
+    "#f#",
+    "b##"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:yellow_dye"
+    },
+    "b": {
+      "item": "minecraft:white_dye"
+    },
+    "f": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "eyecandycraft:periatex",
+    "count": 2
+  }
+}

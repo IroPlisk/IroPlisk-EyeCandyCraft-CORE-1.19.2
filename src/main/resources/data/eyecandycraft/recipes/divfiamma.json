@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#bb",
+    "#fb",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:red_dye"
+    },
+    "b": {
+      "item": "minecraft:white_dye"
+    },
+    "f": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "eyecandycraft:divfiamma",
+    "count": 2
+  }
+}

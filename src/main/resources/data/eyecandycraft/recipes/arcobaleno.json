@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "rrm",
+    "gll",
+    "bvv"
+  ],
+  "key": {
+    "r": {
+      "item": "minecraft:red_wool"
+    },
+    "m": {
+      "item": "minecraft:magenta_wool"
+    },
+    "g": {
+      "item": "minecraft:yellow_wool"
+    },
+    "l": {
+      "item": "minecraft:lime_wool"
+    },
+    "b": {
+      "item": "minecraft:blue_wool"
+    },
+    "v": {
+      "item": "minecraft:purple_wool"
+    }
+  },
+  "result": {
+    "item": "eyecandycraft:arcobaleno",
+    "count": 2
+  }
+}
