@@ -86,31 +86,11 @@ public class BasicItems {
     public static final RegistryObject<Item> PROPRIETAPRIVATA = ITEMS.register("proprietaprivata",
             () -> new Item(new Item.Properties().tab(SignsCreativeModeTab.ECC_SIGNS_CREATIVE_MODE_TAB)));
 
-    // emergenza
-
-    public static final RegistryObject<Item> EMERGENZA = ITEMS.register("emergenza",
-            () -> new Item(new Item.Properties().tab(SignsCreativeModeTab.ECC_SIGNS_CREATIVE_MODE_TAB)));
-    public static final RegistryObject<Item> ALLARME = ITEMS.register("allarme",
-            () -> new Item(new Item.Properties().tab(SignsCreativeModeTab.ECC_SIGNS_CREATIVE_MODE_TAB)));
-    public static final RegistryObject<Item> ESTINTORE = ITEMS.register("estintore",
-            () -> new Item(new Item.Properties().tab(SignsCreativeModeTab.ECC_SIGNS_CREATIVE_MODE_TAB)));
-    public static final RegistryObject<Item> FRANGIVETRO = ITEMS.register("frangivetro",
-            () -> new Item(new Item.Properties().tab(SignsCreativeModeTab.ECC_SIGNS_CREATIVE_MODE_TAB)));
-    public static final RegistryObject<Item> PRONTOSOCCORSO = ITEMS.register("prontosoccorso",
-            () -> new Item(new Item.Properties().tab(SignsCreativeModeTab.ECC_SIGNS_CREATIVE_MODE_TAB)));
-    public static final RegistryObject<Item> RITROVO = ITEMS.register("ritrovo",
-            () -> new Item(new Item.Properties().tab(SignsCreativeModeTab.ECC_SIGNS_CREATIVE_MODE_TAB)));
-    public static final RegistryObject<Item> SIRENA = ITEMS.register("sirena",
-            () -> new Item(new Item.Properties().tab(SignsCreativeModeTab.ECC_SIGNS_CREATIVE_MODE_TAB)));
-    public static final RegistryObject<Item> USCITAEMERGENZA = ITEMS.register("uscitaemergenza",
-            () -> new Item(new Item.Properties().tab(SignsCreativeModeTab.ECC_SIGNS_CREATIVE_MODE_TAB)));
-    public static final RegistryObject<Item> VETROFRANGIBILE = ITEMS.register("vetrofrangibile",
-            () -> new Item(new Item.Properties().tab(SignsCreativeModeTab.ECC_SIGNS_CREATIVE_MODE_TAB)));
 
     // obblighi e arcobaleno(?)
 
-    public static final RegistryObject<Item> OBLPROTEZIONI = ITEMS.register("oblprotezioni",
-            () -> new Item(new Item.Properties().tab(SignsCreativeModeTab.ECC_SIGNS_CREATIVE_MODE_TAB)));
+    //public static final RegistryObject<Item> OBLPROTEZIONI = ITEMS.register("oblprotezioni",
+    //        () -> new Item(new Item.Properties().tab(SignsCreativeModeTab.ECC_SIGNS_CREATIVE_MODE_TAB)));
     public static final RegistryObject<Item> OBLRIFIUTI = ITEMS.register("oblrifiuti",
             () -> new Item(new Item.Properties().tab(SignsCreativeModeTab.ECC_SIGNS_CREATIVE_MODE_TAB)));
     public static final RegistryObject<Item> OBLRTFM = ITEMS.register("oblrtfm",

@@ -1,8 +1,10 @@
 package com.example.eyecandycraft;
 
+import com.example.eyecandycraft.blocks.BlockInit;
 import com.example.eyecandycraft.items.BasicItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
@@ -28,6 +30,7 @@ import org.slf4j.Logger;
 @Mod(EyeCandyCraft.MODID)
 public class EyeCandyCraft
 {
+
     // Define mod id in a common place for everything to reference
     public static final String MODID = "eyecandycraft";
     // Directly reference a slf4j logger
@@ -42,6 +45,8 @@ public class EyeCandyCraft
     // Creates a new BlockItem with the id "examplemod:example_block", combining the namespace and path
     public static final RegistryObject<Item> EXAMPLE_BLOCK_ITEM = ITEMS.register("example_block", () -> new BlockItem(EXAMPLE_BLOCK.get(), new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
 
+    private static final ResourceLocation ATLAS_LOCATION = new ResourceLocation("eyecandycraft", "resources/assets/eyecandycraft/textures/block/cartelli.png");
+
     public EyeCandyCraft()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
@@ -49,6 +54,7 @@ public class EyeCandyCraft
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
         BasicItems.register(modEventBus);
+        BlockInit.register(modEventBus);
 
         // Register the Deferred Register to the mod event bus so blocks get registered
         BLOCKS.register(modEventBus);
