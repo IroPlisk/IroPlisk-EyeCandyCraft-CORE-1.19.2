@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "eyecandycraft:block/vetrofrangibile",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "eyecandycraft:block/vetrofrangibile"
+    },
+    "facing=west": {
+      "model": "eyecandycraft:block/vetrofrangibile",
+      "y": 90
+    },
+    "facing=east": {
+      "model": "eyecandycraft:block/vetrofrangibile",
+      "y": 270
+    }
+  }
+}

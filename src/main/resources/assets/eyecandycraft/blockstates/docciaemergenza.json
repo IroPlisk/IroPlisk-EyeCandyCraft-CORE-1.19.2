@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "eyecandycraft:block/docciaemergenza",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "eyecandycraft:block/docciaemergenza"
+    },
+    "facing=west": {
+      "model": "eyecandycraft:block/docciaemergenza",
+      "y": 90
+    },
+    "facing=east": {
+      "model": "eyecandycraft:block/docciaemergenza",
+      "y": 270
+    }
+  }
+}

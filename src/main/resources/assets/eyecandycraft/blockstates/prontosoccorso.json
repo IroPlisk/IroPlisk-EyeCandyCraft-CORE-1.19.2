@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "eyecandycraft:block/prontosoccorso",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "eyecandycraft:block/prontosoccorso"
+    },
+    "facing=west": {
+      "model": "eyecandycraft:block/prontosoccorso",
+      "y": 90
+    },
+    "facing=east": {
+      "model": "eyecandycraft:block/prontosoccorso",
+      "y": 270
+    }
+  }
+}

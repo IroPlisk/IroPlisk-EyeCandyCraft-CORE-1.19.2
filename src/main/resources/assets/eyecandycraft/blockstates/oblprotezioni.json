@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "eyecandycraft:block/oblprotezioni",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "eyecandycraft:block/oblprotezioni"
+    },
+    "facing=west": {
+      "model": "eyecandycraft:block/oblprotezioni",
+      "y": 90
+    },
+    "facing=east": {
+      "model": "eyecandycraft:block/oblprotezioni",
+      "y": 270
+    }
+  }
+}

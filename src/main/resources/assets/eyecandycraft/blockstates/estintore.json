@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "eyecandycraft:block/estintore",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "eyecandycraft:block/estintore"
+    },
+    "facing=west": {
+      "model": "eyecandycraft:block/estintore",
+      "y": 90
+    },
+    "facing=east": {
+      "model": "eyecandycraft:block/estintore",
+      "y": 270
+    }
+  }
+}

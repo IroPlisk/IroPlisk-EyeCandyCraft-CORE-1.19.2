@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "eyecandycraft:block/allarme",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "eyecandycraft:block/allarme"
+    },
+    "facing=west": {
+      "model": "eyecandycraft:block/allarme",
+      "y": 90
+    },
+    "facing=east": {
+      "model": "eyecandycraft:block/allarme",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "eyecandycraft:block/frangivetro",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "eyecandycraft:block/frangivetro"
+    },
+    "facing=west": {
+      "model": "eyecandycraft:block/frangivetro",
+      "y": 90
+    },
+    "facing=east": {
+      "model": "eyecandycraft:block/frangivetro",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "eyecandycraft:atlas/cartelli",
+		"particle": "eyecandycraft:atlas/cartelli"
+	},
+	"elements": [
+		{
+			"from": [2, 2, 0],
+			"to": [14, 14, 1],
+			"faces": {
+				"north": {"uv": [1.39844, 2.17969, 1.57813, 2.80469], "texture": "#0"},
+				"east": {"uv": [1.40625, 2.14844, 1.60156, 2.8125], "texture": "#0"},
+				"south": {"uv": [0.00781, 5.00781, 0.99219, 5.99219], "texture": "#0"},
+				"west": {"uv": [1.42969, 2.21094, 1.53906, 2.73438], "texture": "#0"},
+				"up": {"uv": [1.5625, 2.73438, 1.38281, 2.23438], "texture": "#0"},
+				"down": {"uv": [1.57813, 2.24219, 1.38281, 2.74219], "texture": "#0"}
+			}
+		}
+	]
+}

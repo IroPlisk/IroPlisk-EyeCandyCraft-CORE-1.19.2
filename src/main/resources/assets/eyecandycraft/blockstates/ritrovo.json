@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "eyecandycraft:block/ritrovo",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "eyecandycraft:block/ritrovo"
+    },
+    "facing=west": {
+      "model": "eyecandycraft:block/ritrovo",
+      "y": 90
+    },
+    "facing=east": {
+      "model": "eyecandycraft:block/ritrovo",
+      "y": 270
+    }
+  }
+}
