@@ -2,6 +2,8 @@ package com.example.eyecandycraft;
 
 import com.example.eyecandycraft.blocks.BlockInit;
 import com.example.eyecandycraft.items.BasicItems;
+import com.example.eyecandycraft.painting.EyeCandyCraftPaintings;
+import com.example.eyecandycraft.sound.EyeCandyCraftSoundEvents;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
 import net.minecraft.resources.ResourceLocation;
@@ -55,6 +57,8 @@ public class EyeCandyCraft
         modEventBus.addListener(this::commonSetup);
         BasicItems.register(modEventBus);
         BlockInit.register(modEventBus);
+        EyeCandyCraftPaintings.register(modEventBus);
+        EyeCandyCraftSoundEvents.register(modEventBus);
 
         // Register the Deferred Register to the mod event bus so blocks get registered
         BLOCKS.register(modEventBus);

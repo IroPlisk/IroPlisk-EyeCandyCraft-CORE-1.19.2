@@ -1,5 +1,9 @@
 {
   "itemGroup.eyecandysigns": "EyeCandyCraft - Segnali",
+  "itemGroup.eyecandydiscs": "EyeCandyCraft - Dischi",
+
+  "item.eyecandycraft.music_disc_claire_de_lune": "Music Disc",
+  "item.eyecandycraft.music_disc_claire_de_lune.desc": "Claude Debussy - Claire De Lune",
 
   "item.eyecandycraft.perigen": "Cartello Pericolo Generico",
   "item.eyecandycraft.periaea": "Cartello Pericolo Radioattivo (IAEA)",

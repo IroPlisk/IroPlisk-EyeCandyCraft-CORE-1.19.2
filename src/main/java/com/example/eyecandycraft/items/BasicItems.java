@@ -1,8 +1,13 @@
 package com.example.eyecandycraft.items;
 
+import com.example.eyecandycraft.CreativeTabs.DiscsCreativeModeTab;
 import com.example.eyecandycraft.CreativeTabs.SignsCreativeModeTab;
 import com.example.eyecandycraft.EyeCandyCraft;
+import com.example.eyecandycraft.sound.EyeCandyCraftSoundEvents;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Rarity;
+import net.minecraft.world.item.RecordItem;
+import net.minecraftforge.common.property.Properties;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -11,6 +16,10 @@ import net.minecraftforge.registries.RegistryObject;
 public class BasicItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, EyeCandyCraft.MODID);
+    //Dischi musicali
+
+    public static final RegistryObject<Item> MUSIC_DISC_CLAIRE_DE_LUNE = ITEMS.register("music_disc_claire_de_lune",
+            () -> new RecordItem(4, EyeCandyCraftSoundEvents.MUSIC_DISC_CLAIRE_DE_LUNE, (new Item.Properties().rarity(Rarity.EPIC).tab(DiscsCreativeModeTab.ECC_DISCS_CREATIVE_MODE_TAB)), 7000));
 
     // cartelli pericolo
 

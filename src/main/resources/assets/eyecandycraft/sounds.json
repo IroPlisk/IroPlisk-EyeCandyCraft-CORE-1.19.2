@@ -1,0 +1,10 @@
+{
+  "music_disc_claire_de_lune": {
+    "sounds": [
+      {
+        "name": "eyecandycraft:records/music_disc_claire_de_lune",
+        "stream": true
+      }
+    ]
+  }
+}
