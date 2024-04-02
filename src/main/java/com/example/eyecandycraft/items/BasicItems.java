@@ -19,10 +19,11 @@ public class BasicItems {
     //Dischi musicali
 
     public static final RegistryObject<Item> MUSIC_DISC_CLAIRE_DE_LUNE = ITEMS.register("music_disc_claire_de_lune",
-            () -> new RecordItem(4, EyeCandyCraftSoundEvents.MUSIC_DISC_CLAIRE_DE_LUNE, (new Item.Properties().rarity(Rarity.EPIC).tab(DiscsCreativeModeTab.ECC_DISCS_CREATIVE_MODE_TAB)), 7000));
+            () -> new RecordItem(4, EyeCandyCraftSoundEvents.MUSIC_DISC_CLAIRE_DE_LUNE, (new Item.Properties().rarity(Rarity.EPIC).tab(DiscsCreativeModeTab.ECC_DISCS_CREATIVE_MODE_TAB).stacksTo(1)), 7000));
+    public static final RegistryObject<Item> MUSIC_DISC_DREAM_SWEET_IN_SEA_MAJOR = ITEMS.register("music_disc_dream_sweet_in_sea_major",
+            () -> new RecordItem(4, EyeCandyCraftSoundEvents.MUSIC_DISC_DREAM_SWEET_IN_SEA_MAJOR, (new Item.Properties().rarity(Rarity.EPIC).tab(DiscsCreativeModeTab.ECC_DISCS_CREATIVE_MODE_TAB).stacksTo(1)), 7000));
 
     // cartelli pericolo
-
     public static final RegistryObject<Item> PERIGEN = ITEMS.register("perigen",
             () -> new Item(new Item.Properties().tab(SignsCreativeModeTab.ECC_SIGNS_CREATIVE_MODE_TAB)));
     public static final RegistryObject<Item> PERIAEA = ITEMS.register("periaea",

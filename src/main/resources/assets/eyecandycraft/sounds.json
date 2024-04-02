@@ -6,5 +6,13 @@
         "stream": true
       }
     ]
+  },
+  "music_disc_dream_sweet_in_sea_major": {
+    "sounds": [
+      {
+        "name": "eyecandycraft:records/music_disc_dream_sweet_in_sea_major",
+        "stream": true
+      }
+    ]
   }
 }
